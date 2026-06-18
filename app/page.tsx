@@ -5,6 +5,7 @@ import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/Projects";
 import VideoShowcase from "@/components/sections/VideoShowcase"; 
 import Experience from "@/components/sections/Experience";
+import GithubStats from "@/components/sections/GithubStats";
 export default function Home() {
   return(
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <VideoShowcase />
       <Experience />
+      <GithubStats />
     </>
   );
 }
