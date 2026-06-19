@@ -28,7 +28,8 @@ export default function Hero(){
                     </a>
                     <a
                     href="/resume.pdf"
-                    className="rounded-lg border px-6 py-3"
+                    download
+                    className="inline-flex rounded-lg border px-6 py-3 mt-8 hover:bg-slate=800 transition"
                     >
                         Download Resume
                     </a>
