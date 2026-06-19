@@ -8,7 +8,7 @@ export const experiences=[
     {
         year: "2024-Present",
         title: "Bachelor of Science in Computer Science",
-        organization: "Makerere University",
+        organisation: "Makerere University",
         description: "Pursuing a Bachelor's Degree in Computer Science with interests in Full Stack Development, Networking and Cloud-Computing",
     },
     {
@@ -20,7 +20,7 @@ export const experiences=[
     {
         year: "2026",
         title: "Ethical Hacking & French Journey",
-        organization: "Self-Learning",
+        organisation: "Self-Learning",
         description: "Studying Ethical Hacking for system secuity and French Speaking, Writing and Reading",
     },
 ];
