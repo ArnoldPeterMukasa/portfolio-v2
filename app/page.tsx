@@ -6,6 +6,8 @@ import Projects from "@/components/sections/Projects";
 import VideoShowcase from "@/components/sections/VideoShowcase"; 
 import Experience from "@/components/sections/Experience";
 import GithubStats from "@/components/sections/GithubStats";
+import Contact from "@/components/sections/Contact";
+import Footer from "@/components/layout/Footer";
 export default function Home() {
   return(
     <>
@@ -17,6 +19,8 @@ export default function Home() {
       <VideoShowcase />
       <Experience />
       <GithubStats />
+      <Contact />
+      <Footer />
     </>
   );
 }
