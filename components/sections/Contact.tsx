@@ -22,7 +22,7 @@ export default function Contact(){
                         </p>
                         <div className="space-y-4">
                             <p>Email: myglobaladdresssystem@gmail.com</p>
-                            <p>Phone:0200905814</p>
+                            <p>Phone: 0200905814</p>
                             <p>location: Kampala (U)</p>
                         </div>
                     </div>
