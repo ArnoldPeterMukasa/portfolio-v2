@@ -1,4 +1,5 @@
 import { projects } from "@/data/projects";
+import {collaborators} from "@/data/collaborators";
 
 export default function Projects() {
   return (
@@ -11,16 +12,16 @@ export default function Projects() {
           Projects
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-2">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="rounded-xl border overflow-hidden"
+              className="rounded-lg border overflow-hidden"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-56 w-full object-cover"
+                className="h-125 w-143 object-center"
               />
 
               <div className="p-6">
@@ -32,7 +33,7 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mt-4">
+                {/*<div className="flex flex-wrap gap-2 mt-4">
                   {project.technologies.map((tech) => (
                     <span
                       key={tech}
@@ -41,7 +42,7 @@ export default function Projects() {
                       {tech}
                     </span>
                   ))}
-                </div>
+                </div>*/}
 
                 <div className="mt-6 flex gap-4">
                   <a
@@ -57,9 +58,51 @@ export default function Projects() {
                     target="_blank"
                     className="rounded-lg border px-4 py-2"
                   >
-                    Live-DEMO
+                    TAP-Me
                   </a>
                 </div>
+                {project.collaborators.length> 0 && (
+                  <div className="mt-6">
+                    <h4 className="font-semibold mb-4">
+                      Collaborators
+                    </h4>
+                    <div className="space-y-2">
+                      {project.collaborators.map((id)=>{
+                        const person = collaborators.find(
+                          (c)=> c.id == id
+                        );
+                        if (!person) return null;
+                        return(
+                          <div
+                          key={person.id}
+                          className="flex items-center gap-2 rounded-lg border p-3"
+                          >
+                            <img
+                            src={person.image}
+                            alt={person.name}
+                            className="h-25 w-25 rounded-center object-cover"
+                            />
+                            <div>
+                              <h5 className="font-medium">
+                                {person.name}  
+                              </h5>
+                              <p className="text-xs text-muted-foreground">
+                                {person.email}
+                              </p>
+                              <p className="text-xs text-muted-foreground">
+                                {person.role}
+                              </p>
+
+                              <p className="text-xs text-muted-foreground">
+                                {person.university}
+                              </p>
+                            </div>
+                          </div>
+                        );                       
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           ))}
