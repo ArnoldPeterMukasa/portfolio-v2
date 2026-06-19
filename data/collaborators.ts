@@ -1,5 +1,3 @@
-import { image } from "framer-motion/client";
-
 export const collaborators=[
     {
         id:1,
@@ -38,7 +36,7 @@ export const collaborators=[
         name: "Stuart Mutebi",
         role: "Frontend Developer",
         university: "Makerere University",
-        email: "staurtmutebi07@gmail.com",
+        email: "stuartmutebi07@gmail.com",
         image: "/images/team/mutebile.jpg",
     }
 ]
