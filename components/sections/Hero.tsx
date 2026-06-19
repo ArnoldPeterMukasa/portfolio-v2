@@ -9,12 +9,12 @@ export default function Hero(){
                     welcome to APM-Site
                 </p>
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                    Hi, I'm Arnold Peter Mukasa
+                    I'm Arnold Peter Mukasa
                 </h1>
                 <h2 className="mt-6 text-xl md:text-2xl text-muted-foreground">
                     Full Stack Developer  | Network Engineer | Tech Enthusiast
                     <br />
-                    IT Consultant| Coffee Driven-Problem Solver
+                    IT Consultant | Coffee Driven-Problem Solver
                 </h2>
                 <p className="mt-4 text-xl text-muted-foreground">
                     A passionate software developer specializing in building exceptional digital experiences. With a strong foundation in web development and a keen eye for design, I create seamless and engaging applications that delight users. Let's build something amazing together!..and solve real-world problems.
