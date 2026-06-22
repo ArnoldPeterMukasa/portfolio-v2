@@ -1,7 +1,9 @@
 import {videos} from "@/data/videos";
+import FadeIn from "../ui/FadeIn";
 export default function VideoShowcase(){
     return (
-        <section
+        <FadeIn>
+            <section
         id="videos"
         className="py-24 px-6"
         >
@@ -35,5 +37,7 @@ export default function VideoShowcase(){
                 </div>
             </div>
         </section>
+        </FadeIn>
+        
     );
 }
