@@ -1,6 +1,9 @@
+import FadeIn from "../ui/FadeIn";
+
 export default function Contact(){
     return(
-        <section
+        <FadeIn>
+            <section
         id="contact"
         className="py-24 -px6"
         >
@@ -47,5 +50,6 @@ export default function Contact(){
                 </div>
             </div>
         </section>
+        </FadeIn>
     );
 }
