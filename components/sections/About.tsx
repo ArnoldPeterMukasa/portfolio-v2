@@ -1,6 +1,8 @@
+import FadeIn from "../ui/FadeIn";
 export default function About() {
   return (
-    <section
+    <FadeIn>
+      <section
       id="about"
       className="py-24 px-6"
     >
@@ -24,5 +26,6 @@ export default function About() {
         </p>
       </div>
     </section>
+    </FadeIn>
   );
 }
