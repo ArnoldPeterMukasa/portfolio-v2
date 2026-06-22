@@ -1,9 +1,10 @@
 import { projects } from "@/data/projects";
 import {collaborators} from "@/data/collaborators";
-
+import FadeIn from "../ui/FadeIn";
 export default function Projects() {
   return (
-    <section
+    <FadeIn>
+      <section
       id="projects"
       className="py-24 px-6"
     >
@@ -109,5 +110,6 @@ export default function Projects() {
         </div>
       </div>
     </section>
+    </FadeIn>
   );
 }
