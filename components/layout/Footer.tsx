@@ -1,6 +1,8 @@
+import FadeIn from "../ui/FadeIn";
 export default function Footer(){
     return(
-        <footer className="border-t py-8 px-6">
+        <FadeIn>
+            <footer className="border-t py-8 px-6">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
                 <p>
                      © {new Date().getFullYear()} Arnold Peter Mukasa.
@@ -22,5 +24,7 @@ export default function Footer(){
                 </div>
             </div>
         </footer>
+        </FadeIn>
+        
     );
 }
