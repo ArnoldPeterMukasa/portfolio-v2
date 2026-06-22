@@ -1,7 +1,9 @@
 import {skillsCategories} from "@/data/skills"
+import FadeIn from "../ui/FadeIn";
 export default function skills(){
     return(
-        <section 
+        <FadeIn>
+            <section 
         id="skills"
         className="py-24 px-6"
         >
@@ -33,5 +35,6 @@ export default function skills(){
                 </div>
             </div>
         </section>
+        </FadeIn>
     );
 }
