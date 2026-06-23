@@ -1,4 +1,5 @@
 "use client";
+import "@/lib/i18n";
 import * as React from "react";
 import { ThemeProvider as NextThemeProvider } from "next-themes";
 export function ThemeProvider({
