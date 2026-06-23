@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
                 <h1 className="text-xl font-bold">
-                    Arnold Peter Mukasa
+                    AP
                 </h1>
                 <ul className="hidden md:flex gap-8">
                     <li><a href="#home">{t("home")}</a></li>
