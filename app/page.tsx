@@ -8,6 +8,8 @@ import Experience from "@/components/sections/Experience";
 import GithubStats from "@/components/sections/GithubStats";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
+import Certifications from "@/components/sections/Certifications";
+import Blog from "@/components/sections/Blogs";
 export default function Home() {
   return(
     <>
@@ -21,6 +23,8 @@ export default function Home() {
       <GithubStats />
       <Contact />
       <Footer />
+      <Certifications/>
+      <Blog/>
     </>
   );
 }
