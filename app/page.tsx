@@ -9,7 +9,8 @@ import GithubStats from "@/components/sections/GithubStats";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 import Certifications from "@/components/sections/Certifications";
-import Blog from "@/components/sections/Blogs";
+import Blog from "@/components/sections/Blog";
+import Testimonials from "@/components/sections/Testimonials";
 export default function Home() {
   return(
     <>
@@ -25,6 +26,7 @@ export default function Home() {
       <Footer />
       <Certifications/>
       <Blog/>
+      <Testimonials/>
     </>
   );
 }
