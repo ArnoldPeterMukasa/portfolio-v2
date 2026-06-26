@@ -1,11 +1,24 @@
 {
-  "home": "Accueil",
-  "about": "À propos",
-  "projects": "Projets",
-  "contact": "Contact",
-  "skills": "Compétences",
-  "experience": "Expérience",
-  "videos": "Vidéos",
-  "downloadResume": "Télécharger CV",
-  "letsWorkTogether": "Travaillons ensemble"
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "videos": "Vidéos",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Bonjour, je suis Arnold Peter Mukasa",
+    "subtitle": "Ingénieur Réseau | Développeur Full Stack | Passionné du Cloud",
+    "description": "Passionné par les réseaux, le cloud, la cybersécurité et le développement logiciel. Je développe des solutions modernes, sécurisées et évolutives."
+  },
+
+  "buttons": {
+    "resume": "Télécharger le CV",
+    "contact": "Me Contacter",
+    "github": "GitHub",
+    "live": "Voir le Projet"
+  }
 }

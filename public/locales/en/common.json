@@ -1,11 +1,24 @@
 {
+  "navbar": {
     "home": "Home",
     "about": "About",
+    "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact",
-    "skills": "Sklills",
+    "videos": "Videos",
     "experience": "Experience",
-    "videos": "videos",
-    "downloadResume": "Download Resume",
-    "letsWorkTogther": "Let's Work Together"
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Hi, I'm Arnold Peter Mukasa",
+    "subtitle": "Network Engineer | Full Stack Developer | Cloud Enthusiast",
+    "description": "Passionate about networking, cloud computing, cybersecurity and software engineering. I build modern, secure and scalable solutions."
+  },
+
+  "buttons": {
+    "resume": "Download Resume",
+    "contact": "Contact Me",
+    "github": "GitHub",
+    "live": "Live Demo"
+  }
 }
