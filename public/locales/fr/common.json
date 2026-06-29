@@ -43,5 +43,11 @@
 
   "Certifications": {
     "heading": "Certifications Professionnelles"
+  },
+
+  "footer": {
+    "quicklinks": "Liens Rapides",
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
   }
 }
