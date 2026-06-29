@@ -10,15 +10,23 @@
   },
 
   "hero": {
+    "welcome": "Bienvenue sur APM Site",
     "title": "Bonjour, je suis Arnold Peter Mukasa",
     "subtitle": "Ingénieur Réseau | Développeur Full Stack | Passionné du Cloud",
     "description": "Passionné par les réseaux, le cloud, la cybersécurité et le développement logiciel. Je développe des solutions modernes, sécurisées et évolutives."
   },
 
   "buttons": {
+    "projects": "Voir les Projets",
     "resume": "Télécharger le CV",
     "contact": "Me Contacter",
     "github": "GitHub",
     "live": "Voir le Projet"
+  },
+
+  "about": {
+  "heading": "À Propos de Moi",
+  "title": "Construire des Solutions Numériques Sécurisées",
+  "description": "Je suis Arnold Peter Mukasa, développeur Full Stack et ingénieur Réseau/Cloud, actuellement étudiant à l'Université Makerere. Je suis titulaire d'un Diplôme en Informatique obtenu à la Makerere University Business School (MUBS) en 2024. Je suis un développeur passionné spécialisé dans la création d'expériences numériques exceptionnelles. Grâce à de solides compétences en développement web et à un sens aigu du design, je développe des applications modernes, performantes et conviviales. J'ai obtenu un certificat en Marketing Digital auprès de Great Learning en 2023, ce qui a renforcé ma compréhension des stratégies et des outils du marketing en ligne. Je possède également la certification CompTIA Security+ obtenue à ISBAT University, qui m'a permis d'acquérir des connaissances essentielles en cybersécurité, notamment en gestion des risques, analyse des menaces et mise en œuvre des contrôles de sécurité. Pendant mon temps libre, j'aime jouer aux échecs, lire des livres et découvrir de nouvelles technologies. Je suis toujours enthousiaste à l'idée de relever de nouveaux défis et de collaborer avec d'autres passionnés afin de créer des solutions innovantes ayant un impact positif. J'apprécie particulièrement le développement d'applications évolutives, les infrastructures cloud, les solutions de réseaux informatiques ainsi que les expériences numériques modernes."
   }
 }
