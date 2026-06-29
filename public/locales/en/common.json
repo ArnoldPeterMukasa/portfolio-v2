@@ -35,5 +35,13 @@
     "github": "GitHub",
     "live": "Live Demo",
     "collaborators": "Collaborators"
+  },
+  
+  "experience": {
+    "heading": "Experience & Education"
+  },
+
+  "certifications": {
+    "heading": "Professional Certifications"
   }
 }
