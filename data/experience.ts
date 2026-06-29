@@ -1,26 +1,52 @@
-export const experiences=[
-    {
-        year: "2026",
-        title: "IT Intern",
-        organisation: "VINCI Construction",
-        description: "IT Operations, Machine Provisioning, System Administration, Backups, SoftWare development"
+export const experience = [
+  {
+    id: 1,
+    year: "2026",
+
+    title: {
+      en: "IT Intern",
+      fr: "Stagiaire Informatique",
     },
-    {
-        year: "2024-Present",
-        title: "Bachelor of Science in Computer Science",
-        organisation: "Makerere University",
-        description: "Pursuing a Bachelor's Degree in Computer Science with interests in Full Stack Development, Networking and Cloud-Computing",
+
+    company: "VINCI Construction",
+
+    description: {
+      en: "Providing enterprise IT support including systems administration, Active Directory, VoIP, SharePoint, Veeam Backup & Replication, biometric systems, network troubleshooting, Fortinet security solutions and enterprise infrastructure management.",
+      fr: "Assistance informatique en entreprise incluant l'administration des systèmes, Active Directory, la VoIP, SharePoint, Veeam Backup & Replication, les systèmes biométriques, le dépannage réseau, les solutions de sécurité Fortinet et la gestion des infrastructures."
+    }
+  },
+
+  {
+    id: 2,
+    year: "2024 - Present",
+
+    title: {
+      en: "Bachelor of Science in Computer Science",
+      fr: "Licence en Informatique",
     },
-    {
-        year: "2022-2024",
-        title: "Diploma in Computer Science",
-        organisation: "Makerere University Business School-(MUBS Main Campus)",
-        description: "Diploma Holder",
+
+    company: "Makerere University",
+
+    description: {
+      en: "Studying software engineering, networking, cybersecurity, databases, cloud computing and modern software development.",
+      fr: "Études en génie logiciel, réseaux, cybersécurité, bases de données, cloud computing et développement logiciel moderne."
+    }
+  },
+
+  {
+    id: 3,
+    year: "2024",
+
+    title: {
+      en: "Diploma in Computer Science",
+      fr: "Diplôme en Informatique",
     },
-    {
-        year: "2026",
-        title: "Ethical Hacking & French Journey",
-        organisation: "Self-Learning",
-        description: "Studying Ethical Hacking for system secuity and French Speaking, Writing and Reading",
-    },
+
+    company: "Makerere University Business School",
+
+    description: {
+      en: "Graduated with strong practical knowledge in programming, networking, databases and information systems.",
+      fr: "Diplômé avec de solides compétences pratiques en programmation, réseaux, bases de données et systèmes d'information."
+    }
+  }
 ];
