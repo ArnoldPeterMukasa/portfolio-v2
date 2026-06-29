@@ -10,15 +10,23 @@
   },
 
   "hero": {
+    "welcome": "Welcome to APM Site",
     "title": "Hi, I'm Arnold Peter Mukasa",
     "subtitle": "Network Engineer | Full Stack Developer | Cloud Enthusiast",
     "description": "Passionate about networking, cloud computing, cybersecurity and software engineering. I build modern, secure and scalable solutions."
   },
 
   "buttons": {
+    "projects": "View Projects",
     "resume": "Download Resume",
     "contact": "Contact Me",
     "github": "GitHub",
     "live": "Live Demo"
+  },
+  
+  "about": {
+    "heading": "About Me",
+    "title": "Building Secure Digital Solutions",
+    "description": "I am Arnold Peter Mukasa, a Full Stack Software Developer and Network/Cloud Engineer currently studying at Makerere University. I hold a Diploma in Computer Science from Makerere University Business School (MUBS) (2024). I am a passionate software developer specializing in building exceptional digital experiences. With a strong foundation in web development and a keen eye for design, I create seamless and engaging applications that delight users. I acquired a Digital Marketing certificate from Great Learning (2023), which enhanced my understanding of online marketing strategies and tools. I also hold a CompTIA Security+ certification from ISBAT University, which equipped me with essential knowledge and skills in cybersecurity, including risk management, threat analysis, and security controls. During my free time I enjoy playing chess, reading books, and learning new technologies. I am always eager to take on new challenges and collaborate with like-minded individuals to create innovative solutions that make a positive impact in the world. I enjoy building scalable applications, cloud infrastructure, networking solutions, and modern digital experiences."
   }
 }
