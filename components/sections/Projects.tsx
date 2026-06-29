@@ -1,7 +1,10 @@
+"use client";
+import { useTranslation } from "react-i18next";
 import { projects } from "@/data/projects";
 import {collaborators} from "@/data/collaborators";
 import FadeIn from "../ui/FadeIn";
 export default function Projects() {
+  const {t, i18n}=useTranslation();
   return (
     <FadeIn>
       <section
@@ -10,7 +13,7 @@ export default function Projects() {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12">
-          Projects
+          {t("projects.heading")}
         </h2>
 
         <div className="grid md:grid-cols-2 gap-2">
@@ -21,29 +24,24 @@ export default function Projects() {
             >
               <img
                 src={project.image}
-                alt={project.title}
+                alt={project.title[i18n.language as "en" | "fr"]}
                 className="h-125 w-143 object-center"
               />
 
               <div className="p-6">
                 <h3 className="text-2xl font-semibold">
-                  {project.title}
+                  {project.title[i18n.language as "en" | "fr"]}
                 </h3>
 
                 <p className="mt-4 text-muted-foreground">
-                  {project.description}
+                  {project.description[i18n.language as "en" | "fr"]}
                 </p>
 
-                {/*<div className="flex flex-wrap gap-2 mt-4">
-                  {project.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="rounded-full border px-3 py-1 text-sm"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>*/}
+                <div className="mt-4">
+                  <span className="rounded-full bg-cyan-600 px-3 py-1 text-sm text-white">
+                    {project.status[i18n.language as "en" | "fr"]}
+                  </span>
+                 </div>
 
                 <div className="mt-6 flex gap-4">
                   <a
@@ -51,7 +49,7 @@ export default function Projects() {
                     target="_blank"
                     className="rounded-lg border px-4 py-2"
                   >
-                    GitHub
+                    {t("projects.github")}
                   </a>
 
                   <a
@@ -59,13 +57,13 @@ export default function Projects() {
                     target="_blank"
                     className="rounded-lg border px-4 py-2"
                   >
-                    TAP-Me
+                    {t("projects.live")}
                   </a>
                 </div>
                 {project.collaborators.length> 0 && (
                   <div className="mt-6">
                     <h4 className="font-semibold mb-4">
-                      Collaborators
+                      {t("projects.collaborators")}
                     </h4>
                     <div className="space-y-2">
                       {project.collaborators.map((id)=>{
