@@ -6,7 +6,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 export default function Navbar() {
     const{t}=useTranslation();
     return (
-        <nav className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur">
+        <nav className="sticky top-0 z-50 border-slate-700/30 bg-background/70 backdrop-blur-xl">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
                 <h1 className="text-xl font-bold">
                     AP
