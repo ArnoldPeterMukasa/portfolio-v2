@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/layout/ThemeProvider";
 /*import { Geist, Geist_Mono } from "next/font/google";*/
 import "./globals.css";
 import type { Metadata } from "next";
+import ScrollProgress from "@/components/ui/ScrollProgress";
 
 export const metadata: Metadata = {
   title: "Arnold Peter Mukasa | Full Stack Developer & Network Engineer",
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
+        <ScrollProgress/>
         <ThemeProvider>
           {children}
         </ThemeProvider>
