@@ -39,7 +39,7 @@ export default function Hero() {
 
               <a
                 href="#projects"
-                className="rounded-lg bg-cyan-600 px-6 py-3 text-white hover:bg-cyan-700"
+                className="rounded-lg bg-cyan-600 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-700"
               >
                 {t("buttons.projects")}
               </a>
@@ -47,7 +47,7 @@ export default function Hero() {
               <a
                 href="/resume.pdf"
                 download
-                className="rounded-lg border px-6 py-3 hover:bg-slate-900 hover:text-white"
+                className="rounded-lg border px-6 py-3 transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white"
               >
                 {t("buttons.resume")}
               </a>
