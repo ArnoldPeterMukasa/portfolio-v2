@@ -4,12 +4,17 @@ export const projects = [
 
     title: {
       en: "APM Portfolio Website",
-      fr: "Portfolio APM"
+      fr: "Portfolio APM",
+    },
+
+    role: {
+      en: "Full Stack Developer",
+      fr: "Développeur Full Stack",
     },
 
     description: {
       en: "A professional portfolio built using Next.js, TypeScript, Tailwind CSS and shadcn/ui.",
-      fr: "Un portfolio professionnel développé avec Next.js, TypeScript, Tailwind CSS et shadcn/ui."
+      fr: "Un portfolio professionnel développé avec Next.js, TypeScript, Tailwind CSS et shadcn/ui.",
     },
 
     image: "/images/projects/arnold.png",
@@ -18,7 +23,7 @@ export const projects = [
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "Shadcn UI"
+      "Shadcn UI",
     ],
 
     github:
@@ -28,10 +33,10 @@ export const projects = [
 
     status: {
       en: "In Progress",
-      fr: "En cours"
+      fr: "En cours",
     },
 
-    collaborators: []
+    collaborators: [],
   },
 
   {
@@ -39,12 +44,17 @@ export const projects = [
 
     title: {
       en: "Network Infrastructure Project",
-      fr: "Projet d'Infrastructure Réseau"
+      fr: "Projet d'Infrastructure Réseau",
+    },
+
+    role: {
+      en: "Network Engineer",
+      fr: "Ingénieur Réseau",
     },
 
     description: {
       en: "Designed and implemented secure enterprise networking solutions including VLANs, firewalls and VPN technologies.",
-      fr: "Conception et mise en œuvre d'une infrastructure réseau sécurisée comprenant des VLAN, des pare-feu et des technologies VPN."
+      fr: "Conception et mise en œuvre d'une infrastructure réseau sécurisée comprenant des VLAN, des pare-feu et des technologies VPN.",
     },
 
     image: "/images/projects/net.png",
@@ -53,7 +63,7 @@ export const projects = [
       "Networking",
       "Cisco",
       "VLAN",
-      "Security"
+      "Security",
     ],
 
     github: "#",
@@ -62,10 +72,10 @@ export const projects = [
 
     status: {
       en: "Completed",
-      fr: "Terminé"
+      fr: "Terminé",
     },
 
-    collaborators: []
+    collaborators: [],
   },
 
   {
@@ -73,12 +83,17 @@ export const projects = [
 
     title: {
       en: "Academic Issue Tracking System",
-      fr: "Système de Suivi des Problèmes Académiques"
+      fr: "Système de Suivi des Problèmes Académiques",
+    },
+
+    role: {
+      en: "Backend Developer",
+      fr: "Développeur Backend",
     },
 
     description: {
       en: "A collaborative university platform developed by Makerere University students to solve academic challenges digitally.",
-      fr: "Une plateforme collaborative développée par des étudiants de l'Université Makerere afin de résoudre numériquement les problèmes académiques."
+      fr: "Une plateforme collaborative développée par des étudiants de l'Université Makerere afin de résoudre numériquement les problèmes académiques.",
     },
 
     image: "/images/projects/net.png",
@@ -87,7 +102,7 @@ export const projects = [
       "React",
       "Python",
       "Django",
-      "Postman"
+      "Postman",
     ],
 
     github: "#",
@@ -97,10 +112,10 @@ export const projects = [
 
     status: {
       en: "Completed",
-      fr: "Terminé"
+      fr: "Terminé",
     },
 
-    collaborators: [1,2,3,4]
+    collaborators: [1, 2, 3, 4],
   },
 
   {
@@ -108,12 +123,17 @@ export const projects = [
 
     title: {
       en: "Reclaim Space",
-      fr: "Reclaim Space"
+      fr: "Reclaim Space",
+    },
+
+    role: {
+      en: "Backend & Firebase Developer",
+      fr: "Développeur Backend & Firebase",
     },
 
     description: {
       en: "A location-based system helping recover lost National IDs and locate missing people using GPS technologies.",
-      fr: "Une solution basée sur la géolocalisation permettant de retrouver des cartes d'identité perdues et des personnes disparues grâce au GPS."
+      fr: "Une solution basée sur la géolocalisation permettant de retrouver des cartes d'identité perdues et des personnes disparues grâce au GPS.",
     },
 
     image: "/images/projects/net.png",
@@ -122,7 +142,7 @@ export const projects = [
       "Flutter",
       "Firebase",
       "Dart",
-      "GPS"
+      "GPS",
     ],
 
     github: "#",
@@ -132,9 +152,9 @@ export const projects = [
 
     status: {
       en: "Completed",
-      fr: "Terminé"
+      fr: "Terminé",
     },
 
-    collaborators: [1,2,3,5]
-  }
+    collaborators: [1, 2, 3, 5],
+  },
 ];
