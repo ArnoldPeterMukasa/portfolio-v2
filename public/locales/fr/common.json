@@ -11,6 +11,7 @@
 
   "hero": {
     "welcome": "Bienvenue sur APM Site",
+    "available": "Disponible pour des stages et des missions freelance",
     "title": "Bonjour, je suis Arnold Peter Mukasa",
     "subtitle": "Ingénieur Réseau | Développeur Full Stack | Passionné du Cloud",
     "description": "Passionné par les réseaux, le cloud, la cybersécurité et le développement logiciel. Je développe des solutions modernes, sécurisées et évolutives."
@@ -46,6 +47,7 @@
   },
 
   "footer": {
+    "description": "Développement de logiciels sécurisés, d'infrastructures cloud et de solutions réseau d'entreprise.",
     "quicklinks": "Liens Rapides",
     "contact": "Contact",
     "rights": "Tous droits réservés."
