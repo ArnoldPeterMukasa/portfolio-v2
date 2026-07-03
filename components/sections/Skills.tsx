@@ -1,6 +1,6 @@
 import {skillsCategories} from "@/data/skills"
 import FadeIn from "../ui/FadeIn";
-export default function skills(){
+export default function Skills(){
     return(
         <FadeIn>
             <section 
