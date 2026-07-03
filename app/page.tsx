@@ -11,12 +11,16 @@ import Footer from "@/components/layout/Footer";
 import Certifications from "@/components/sections/Certifications";
 import Blog from "@/components/sections/Blog";
 import Testimonials from "@/components/sections/Testimonials";
+import TechBanner from "@/components/layout/TechBanner";
+import Stats from "@/components/sections/Stats";
 export default function Home() {
   return(
     <>
       <Navbar />
+      <TechBanner/>
       <Hero />
       <About />
+      <Stats/>
       <Skills />
       <Projects />
       <VideoShowcase />
