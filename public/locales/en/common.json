@@ -11,6 +11,7 @@
 
   "hero": {
     "welcome": "Welcome to APM Site",
+    "available": "Available for internships and freelance",
     "title": "Hi, I'm Arnold Peter Mukasa",
     "subtitle": "Network Engineer | Full Stack Developer | Cloud Enthusiast",
     "description": "Passionate about networking, cloud computing, cybersecurity and software engineering. I build modern, secure and scalable solutions."
@@ -46,6 +47,7 @@
   },
 
   "footer": {
+  "description": "building secure software, cloud infrastructure and enterprise networking solutions.",
   "quicklinks": "Quick Links",
   "contact": "Contact",
   "rights": "All Rights Reserved."
