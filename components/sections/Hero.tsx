@@ -13,15 +13,21 @@ export default function Hero() {
         id="home"
         className="min-h-screen flex items-center px-6"
       >
-        <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 md:grid-cols-2">
 
-          {/* Left */}
+          {/* Left Side */}
 
           <div>
 
-            <p className="mb-4 text-cyan-500 font-semibold">
-              {t("hero.welcome")}
-            </p>
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2">
+
+              <span className="h-2 w-2 rounded-full bg-green-500"></span>
+
+              <p className="text-sm font-medium text-cyan-500">
+                {t("hero.available")}
+              </p>
+
+            </div>
 
             <h1 className="text-5xl font-bold leading-tight md:text-7xl">
               {t("hero.title")}
@@ -31,7 +37,7 @@ export default function Hero() {
               {t("hero.subtitle")}
             </h2>
 
-            <p className="mt-8 text-lg leading-8 text-muted-foreground">
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-muted-foreground">
               {t("hero.description")}
             </p>
 
@@ -39,7 +45,7 @@ export default function Hero() {
 
               <a
                 href="#projects"
-                className="rounded-lg bg-cyan-600 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-700"
+                className="rounded-xl bg-cyan-600 px-7 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-cyan-700"
               >
                 {t("buttons.projects")}
               </a>
@@ -47,7 +53,7 @@ export default function Hero() {
               <a
                 href="/resume.pdf"
                 download
-                className="rounded-lg border px-6 py-3 transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white"
+                className="rounded-xl border px-7 py-3 font-semibold transition-all duration-300 hover:scale-105 hover:bg-cyan-600 hover:text-white"
               >
                 {t("buttons.resume")}
               </a>
@@ -56,18 +62,24 @@ export default function Hero() {
 
           </div>
 
-          {/* Right */}
+          {/* Right Side */}
 
           <div className="flex justify-center">
 
-            <Image
-              src="/images/profile/profile.jpg"
-              alt="Arnold Peter Mukasa"
-              width={420}
-              height={420}
-              className="rounded-full border-4 border-cyan-500 object-cover shadow-2xl"
-              priority
-            />
+            <div className="relative">
+
+              <div className="absolute inset-0 rounded-full bg-cyan-500/20 blur-3xl"></div>
+
+              <Image
+                src="/images/profile/profile.jpg"
+                alt="Arnold Peter Mukasa"
+                width={420}
+                height={420}
+                priority
+                className="relative rounded-full border-4 border-cyan-500 object-cover shadow-2xl transition duration-500 hover:scale-105"
+              />
+
+            </div>
 
           </div>
 
