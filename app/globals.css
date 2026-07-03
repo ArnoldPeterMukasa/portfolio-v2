@@ -119,7 +119,7 @@
     border-color: var(--color-border);
   }
   body {
-    background-color: (var--background);
+    background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
   }
@@ -127,4 +127,20 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
 }
