@@ -63,12 +63,6 @@ export default function Projects() {
 
                   </div>
 
-                  <p className="font-medium text-cyan-500">
-                    {i18n.language === "fr"
-                      ? project.role.fr
-                      : project.role.en}
-                  </p>
-
                   <p className="mt-4 leading-7 text-muted-foreground">
                     {i18n.language === "fr"
                       ? project.description.fr
@@ -160,6 +154,7 @@ export default function Projects() {
                     <a
                       href={project.github}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="rounded-xl border px-5 py-2 transition hover:bg-cyan-600 hover:text-white"
                     >
                       GitHub
@@ -168,6 +163,7 @@ export default function Projects() {
                     <a
                       href={project.live}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="rounded-xl bg-cyan-600 px-5 py-2 text-white transition hover:bg-cyan-700"
                     >
                       {t("buttons.live")}
