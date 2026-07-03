@@ -1,5 +1,5 @@
 "use client";
-
+import {useState} from "react";
 import { useTranslation } from "react-i18next";
 import { projects } from "@/data/projects";
 import { collaborators } from "@/data/collaborators";
@@ -7,6 +7,20 @@ import FadeIn from "../ui/FadeIn";
 
 export default function Projects() {
   const { i18n, t } = useTranslation();
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const categories = [
+  "All",
+  "Web",
+  "Networking",
+  "Cloud",
+  "Security",
+  "Mobile",
+];
+
+const filteredProjects =
+  selectedCategory === "All"
+    ? projects
+    : projects.filter((project) => project.role.en === selectedCategory);
 
   return (
     <FadeIn>
@@ -20,9 +34,25 @@ export default function Projects() {
             {t("projects.heading")}
           </h2>
 
+          <div className="mb-12 flex flex-wrap justify-center gap-4">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setSelectedCategory(category)}
+                className={`rounded-full px-5 py-2 transition-all duration-300 ${
+                  selectedCategory === category
+                  ? "bg-cyan-600 text-white"
+                  : "border hover:bg-cyan-600 hover:text-white"
+                }`}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
+
           <div className="grid gap-10 md:grid-cols-2">
 
-            {projects.map((project) => (
+            {filteredProjects.map((project) => (
 
               <div
                 key={project.id}
