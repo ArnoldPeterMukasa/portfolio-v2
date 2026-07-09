@@ -42,7 +42,7 @@ const filteredProjects =
                 className={`rounded-full px-5 py-2 transition-all duration-300 ${
                   selectedCategory === category
                   ? "bg-cyan-600 text-white"
-                  : "border hover:bg-cyan-600 hover:text-white"
+                  : "border border-slate-700/40 hover:bg-cyan-600 hover:text-white"
                 }`}
               >
                 {category}
@@ -56,7 +56,7 @@ const filteredProjects =
 
               <div
                 key={project.id}
-                className="overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+                className="overflow-hidden rounded-2xl border border-slate-700/40 bg-background transition-all duration-500 hover:border-cyan-500 hover:shadow-2xl"
               >
 
                 <img
