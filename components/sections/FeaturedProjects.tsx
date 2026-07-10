@@ -36,7 +36,7 @@ export default function FeaturedProjects() {
 
             <div
               key={project.id}
-              className="group overflow-hidden rounded-2xl border transition duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              className="group overflow-hidden rounded-[28px] border border-white/20 bg-white/10 shadow-[0_20px_80px_rgba(0,0,0,0.08)] backdrop-blur-2xl transition duration-300 hover:-translate-y-2 hover:shadow-[0_25px_90px_rgba(0,0,0,0.16)]"
             >
 
               <div className="overflow-hidden">
@@ -50,6 +50,7 @@ export default function FeaturedProjects() {
                   }
                   width={600}
                   height={400}
+                  loading="eager"
                   className="h-60 w-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
@@ -73,12 +74,19 @@ export default function FeaturedProjects() {
 
                 </p>
 
-                <Link
-                  href="/projects"
-                  className="mt-6 inline-block text-cyan-500 hover:underline"
-                >
-                  {t("buttons.viewAll")} →
-                </Link>
+                <div className="mt-6 flex items-center justify-between">
+                  <Link
+                    href="/projects"
+                    className="inline-flex items-center gap-2 text-cyan-500 transition-colors hover:text-cyan-400"
+                  >
+                    <span>{t("buttons.viewAll")}</span>
+                    <span>→</span>
+                  </Link>
+
+                  <span className="rounded-full border border-cyan-500/20 bg-cyan-500/10 px-3 py-1 text-sm font-medium text-cyan-600">
+                    Visit
+                  </span>
+                </div>
 
               </div>
 
