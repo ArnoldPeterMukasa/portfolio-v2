@@ -117,16 +117,33 @@
 @layer base {
   * {
     border-color: var(--color-border);
+    cursor: none;
   }
+
   body {
+    min-height: 100vh;
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans);
+    background-image: radial-gradient(circle at top left, rgba(6, 182, 212, 0.12), transparent 30%);
+  }
+
+  ::selection {
+    background-color: rgba(6, 182, 212, 0.3);
+    color: inherit;
   }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
 }
 
 @keyframes marquee {
