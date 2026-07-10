@@ -12,13 +12,13 @@ export default function CollaboratorCard({
   email,
 }: Props) {
   return (
-    <div className="rounded-lg border p-4">
-      <div className="space-y-1">
+    <div className="glass-panel rounded-[24px] p-5">
+      <div className="space-y-2">
         <h4 className="font-semibold">
           {name}
         </h4>
 
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-muted-foreground/90">
           {role}
         </p>
 
