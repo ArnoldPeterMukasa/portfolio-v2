@@ -117,7 +117,31 @@
 @layer base {
   * {
     border-color: var(--color-border);
-    cursor: none;
+  }
+
+  /* Ensure default cursor is available */
+  html,
+  body {
+    cursor: auto;
+  }
+
+  /* Make interactive elements show the hand/finger pointer */
+  a,
+  button,
+  summary,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  /* Use a custom hand cursor on devices with a fine pointer (mouse) */
+  @media (pointer: fine) {
+    html,
+    body {
+      cursor: url('/images/cursor/hand.svg') 4 2, pointer;
+    }
   }
 
   body {
@@ -127,6 +151,13 @@
     font-family: var(--font-sans);
     background-image: radial-gradient(circle at top left, rgba(6, 182, 212, 0.12), transparent 30%);
   }
+
+  /*
+    Note: Previously the native cursor was hidden globally with `cursor: none`.
+    That required the custom `CursorGlow` and could interfere with tapping.
+    Restoring the native cursor makes interactive elements show the standard
+    hand/pointer and improves touch/click behavior.
+  */
 
   ::selection {
     background-color: rgba(6, 182, 212, 0.3);
