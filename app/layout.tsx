@@ -1,7 +1,6 @@
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
 import ScrollProgress from "@/components/ui/ScrollProgress";
-import CursorGlow from "@/components/ui/CursorGlow";
 import "@/lib/i18n";
 import { Comfortaa } from "next/font/google";
 import "./globals.css";
@@ -42,7 +41,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth" className={comfortaa.variable}>
       <body className="font-sans">
         <ScrollProgress />
-        <CursorGlow />
         <ThemeProvider>
           <Navbar />
           {children}
